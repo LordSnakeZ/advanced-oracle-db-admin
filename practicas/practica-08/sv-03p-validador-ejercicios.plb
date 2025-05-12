@@ -1,0 +1,58 @@
+whenever sqlerror exit rollback
+create or replace procedure spv_check_tables wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+138e 54e
+II9R3AEko+wpKGQUVrdetBpyf6Mwg1XqVUiD8i8isXqVTQkBTdjn8dLoiVo52NQnfHc5d4c7
+bwO9K6QTA5joJ5XZ0ps0Fb7XbTJ+C35+tzZNZg3nkzO5/3J4mkf/uYWrM9L52yU1Vurbk3zB
+1ff1i3/MLPf0O7ro31A45ZPt9td7IKk4sSemXpveUboPYYaBxNfJjKSuWQ0T9MuLkVA9O5/C
+YZpsVRM4u4wuI6O7exNfiyOE69+KLUhK1RuAsQ9+jLBVw/rp712DBLYM/f1qR3DqtXB1UzYn
+CJocLvTJ78t3JDRYdFnaB/btK/+RA+mLgmWZICCIScuVLxYnFCiXR5l8qxVzr8NJXW46ZTpa
+PJ5cCT/GFKEknG478UQIunt2HuwDuqsj8VbW3W2xFld2gFbAuJGI46rOLeJ95ptQ96iwjzYR
+JfeOp46d5WhfQ6iAxpjLFqxCFgIla5YeIKuPkmWpv9npmUhCuCiXI3Mh+Vpk+ZO7LtR7BNY3
+GXghzww7DmRqiX117lbUgSsXgmthd9Iufyz5nRd63cqmF7/R5nQ2kg3747vQqM/f8MGt3ghM
+56FjWlhfyWZlRDUVNvRm91RpkN0ffczbeVInvs7RcQcjRoJ7HymSfaFv4hRu8nhXbtTyeLZu
+Q8iwfhxDqnRzrcrCdswIUhwA0VHGAdg4IBnDZqEDjGlO9IJDwOpt6eKn8phM1bHA7ZGP5SbF
+uEQu6VULulgJlo++oBJfyAPt+64Y4qIwUc/qgYekuCvkPi1tHjL6/hjhTZyMdVsPGKXzff5J
+Pful/tU3c6VtGeqGmi5YepLmZaQ37eVwy2dMbIeLmKkjsR6E3+2Z2HCqSjeQXqHrVf+QChPM
+aEBxtbmlLifqeYxM2r76iid6a68hCJwqWH32BRHT0nLN31wETx/S2c8ZcCVGZh9CiFqRLJm1
+msi9KlgrMZ7Zj+PJzDjeHn2oz35lYh3CiE1gHQiKxESGdDSP/YaB27U5MLnqbykAxpRbyOe2
+BXwkqZuDr7a2EDugTyIhdhVsTspSL4eBWFRAKLW942LtCcUVeUD+F3B5DWyr5ZXuCMLwAHOM
+OlTMxmPk6ec19NurM+laj6Suro1ltICuI8/Otr0GR4FMxrLyjgEScE54CV01J6WOSMCjj2Ri
+pAcZcsUw3u2ahxLiDmPkK0jTt1B78BM7p511/XojBnkTGB8aW9Fw9jMa8GJkW0rvEcF0m2ZW
++4+Tnt/TkH3hQnsy5QalZqqcu9qIN5DZZjdFxGy59w7ynDp05iwSWsB/VADk0mhCS2OcBi1C
+b2DbVz0u5Zi9Yk5eR9yf82lP4pie0TIDmvnBH16unnQ=
+
+/
+show errors
+Prompt Realizando limpieza..
+exec spv_drop_user('&&p_nombre'||'08');
+Prompt invocando script s-00-crea-usuario.sql
+start s-00-crea-usuario.sql
+Prompt Invocando s-01-datos-db-buffer.sql
+start s-01-datos-db-buffer.sql
+Prompt Invocando s-02-random-data.sql
+start s-02-random-data.sql
+set serveroutput on 
+exec spv_print_header
+host sha256sum &&p_script_validador
+exec spv_valida_os_user_ordinario
+exec spv_check_tables('&&p_nombre'||'08');
+exec spv_print_ok('Validación concluida');
+exit

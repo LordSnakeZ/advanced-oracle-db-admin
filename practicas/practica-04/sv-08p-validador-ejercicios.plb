@@ -1,0 +1,184 @@
+
+create or replace procedure spv_valida_ejercicio_version_bd wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+395 258
+w8PbwipH+rR6+vn5J3IrJcuxNI4wg43xLkgKfI4CmlMlBWqQWFpN4SXcCWPTsv/VJ5l35E2k
+k8tSXEERX3T649f1skzmeCu24RQp0MOodM5x4p3HiqnOgorbNoSTfn1AQzHxzPlP2SEMgjV4
+cadYVLOVCfgS4S9QV195BpLItJGfebb2Nki0Fr3t0H9CisENgmp8YB87ji+a9BezyqPWp3DT
+Rbx4EYtJ8P+GBQWuROrOTx7NlgBY4cVC/+uenj6nHqAlv85VtyI7TnbCXGxwCXoTRavYyQRq
+t46WqexIpjJVBdj29aOIG0zRRRRQbzu+CB1BlfM5/rnL2uI7GXsvsW3krw0Z+FAopIGQFcpr
+nwTg097iH2Ci/fnpvJHe/684lLpL8e9Vd9ezQ3d3ujwLpNh/2XDRvuV2RYontqeZJoogGQ89
+35kWdZFMw03XNDW942Vnc/2yRDvf+8OxEMTopeOrk4ZejO1Q9UuYJO2cFa4hegeJ7Y7hRVOd
+FfKrzXN5DYaDgXOsHny72d4d9ei4Vipu73OPtjaJHqzZWVr1oMydZhlBLbstlZ6L5Y8vEJjy
+2dAAwQZyWzolW94=
+
+/
+show errors
+
+create or replace procedure spv_valida_ejercicio_roles wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+47c 2fa
+8+Jryl+uzuq+y75nhbBK4gPdJmswg3nDr0iMfC9Vxxr5amhZv8yN2MCDFlvmaI55GO0LDvy9
+Lb0YVC0vWCGw5Ef51If4Cw2yOSUzjhLJ5IvteIRXZU/iCxpQdnIprdVtEKeLqsC+1Z/pkJdF
+R/0HsC3jAHQEFBySKBw/nQJnaFmm8XcXUgQ1BCTiFtGDUGR1BscP/Eew6yk7oTp/nkCSSUME
+FA5nZ8b7NlUJJOGO5NwXrGJVUN/H0IrzPNWW6WFji1imX0x86ghWflqlYfkpN8V/BJp5UJnv
+Rd+7p6tULIOrlnHW8Fa9T//rKi5ZqIiUVOdFX62wV1MOldh9G+cgG0XPJet4h1cPja0429h4
+RV3yRn/ijDr33VFElHqhAKgWYP9+Mai+grFBo+yiXch4xnHJnYKFDGnrrNVLPJ/wY3GejIlz
+9ee81eFYLBiLFAMQefzaoZ/CJKd8Khb+J8BNibKGBWU8WCLgBTmmuAQaP10vLCYfzAGNL/uZ
+9Jnf00LV6TJTSfsQq0xEXPiOkvJf9i306hyH5aszo/kmSI8WbcfMxaT8z1XGAlKc+egS0h9I
+nfsGPxU/fZf40WlPJ0JpSjXMkA+1JtDoud+wMuTtwYycXcCINw/RNsLoV8OrHnX6WcFkby7W
+8Mk40JpwyfHDeeVBasYNWP72gruxQEZktbWLwKK6ElefcvHeIlWkUJnqzfzyO23Y1S5h1jzm
+R0+VqaaTvZbXDBu6Perljs2VnHjYRlfZ
+
+/
+show errors
+
+
+create or replace procedure spv_valida_usuarios_admin wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+6df 260
+MqW6OSLp5wpXavN5DOrn9yifj+kwg+2310isZy+pEt8IpItQNn5XTYFQd7iPFztgk4Xh7EHn
+lCXxVH/Yg20gPYB9bTIfH+QmKt8ntii5ikd4A05EB7Q5ZRCsqf+nr2VuFMwEVn1mR/GJOTjS
+QVkBSd1hYwOJa2Bf4mDsKn2+PZ7dfFBZCgfZU2gRIneDHv1qMy1btMT1olRagK4AcTulmIFy
+6R2RMMiw+r9f4wCYFoaTpOC6fDQyYJAZpkS8bVoZwHfpfi8/2+wCw/oQn2wcsUu9ip0m9uVd
+8yx5W3lb8/PXB8ek31PZL0FH0KayXCErPBfcXJ52ZF7yWdzz3lERDfHKbQ+2e3IJninZekEb
+zPJtVr2wZwvjsIb1e3K8IqhuqVR8sMKZ40kvyYbEkVjmjmpWGtLv12bFPVdrdjGofoA3VZxs
+ql7ifi76zAetrYSKvMgzTZLLEszexNQZzCA9E+CAH7Ne0pI4wSEoUW6yYQuGwPicKwouKHC9
+S8T/D9d2LcIdXI/DNbApvp1RQSSqSRJyNBVbwGlpMcHAQJ/IF8UnTMz34ogQmq2A8crk1ug7
+3Jy2Ar9rgMOofmEgvPvEuqUj
+
+/
+show errors
+
+create or replace procedure spv_valida_bitacora wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+aa9 327
+3/LV2VafXRLT511H6Q5fsWCL5KMwg81cVUgTfARVMmO8ar9bw8xEFBPoou2Pxvxp2a4udjvq
+42x+6fK4ORSY+tmKkzPggrQvRWyjJRrtg7J/IjM6SnI6WeGKuoUbBDUtcYAeMEH/Bn0Mo9Re
+7MbAL0K89mW44HAetzcyRG6lmwab4XDTkyII1I/zsaIw27Ac5xXQzeBCDuXlZspqn6Qgmd6S
+xjmI/YsAI0rdpTnsgxPwGstRMGFaAx4JPaNS8bTc5uBwxrVtg6LESsYNn9t/4CYjRBbxQmVi
+OPLqkz4PPsjJbALum6EdSqrXKeEa12DnkWU2pYY++rZUYpyh0WQYXG6wwzcTJwr/H9sxWd2h
+CBCNVuD7/rVGx3sfUA6oLFKVLzm3Ft1KeErk2pPsd76Rgp5Cm2Jil25vyJGkMhi0/kfznyvT
+NufEf8UNnOX/O4RP9+nU53ax6WELS8y2ytUexPu3UAhIxNjt/2mbLc0wPciCK1HwfKIwVk7r
+EYr1rLDGFxRWy91fcme0eF1J86BZkShGx9ovyYMvYQJEu7zFiAFgLQkBHHIRkDQl8lWSBdGx
+cHMeSU7shx3eDVL/H9WKkceJQwnOBGXf+V4AeetXPRfUJcyHnT0nRPhC13e/dToo+4CBUrWq
+LLsDvLVFEOR7MVr7f7ukbSoS2nB57oIzXgvuz5AD37Yuuz3p//2vcIA2BymPYCx+gY8a9qXo
+xI95lq/4hpavk7vdDKwmexkh2NrTpbnBrn/HksZPts344XgCcuwVB1W14Vs+7p/vchzt+LJJ
+8jN6
+
+/
+show errors
+
+
+create or replace procedure spv_valida_ejercicios wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+370 1de
+K/6xKZ2bTNw6Ne4kEQ3ROWspeD8wg5DxNa5qyo7GAJYxv488MzwqQX56UOaOVfKEeOI2uuB8
+DUx9PF6djSyvlhvDxJET2ehb56UZtXMcqoWILn+jf3RFMpYjkx7ynoHoWSYMVZ8/0WVFWn51
+hKci5m9EqY7rvaZIuC3FK8jzqxlAAxBAJJlqpmhV1pCfBHqcj5XG7H3xG3sl50Y6lg6EjQzT
+SVe/q0xJpCbroawsWsn2U2Xp/+n/WmGO0jH+zhFeXg0O6ujrTyyyTY5NbFrIH9sS+wfHrA7d
+rnVjFA1iuEee5oL3yrXdRXBdkLB1YSukVAzvN+WvYQXyjLqPsmprfzXPp0d9dh/5vtK1goyd
+f4wMeEz9VR6j7YNkwVaNPZhI9cR/wvXREkmgT4MCqRE1wnMg7UY+BcmMq3nqmrth95afh0CC
+98hsWT7WsE1MXcWFtOJqiYE8SMYnV4QI1x+WBPjF
+
+/
+show errors
+
+Prompt Invocando scripts de la práctica
+!./sv-01-gen-invoca-scripts-main-enc.sh
+
+pause Scripts invocados. Presionar ENTER para comenzar la validación o Ctrl +C para cancelar.
+
+connect sys/&p_sys_password@&p_pdb as sysdba
+set serveroutput on
+exec spv_print_header
+host sha256sum &&p_script_validador
+exec spv_valida_os_user_ordinario
+exec spv_valida_ejercicios(upper('&&p_nombre'))
+set serveroutput on
+exec spv_remove_procedures

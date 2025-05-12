@@ -1,0 +1,35 @@
+create or replace procedure spv_valida_datos_instancia wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+5da 34b
+cosm9oRs8O9Xc3dGuerdEfWel2wwg+2J10gTZy/GEjNeR6gle41DV1yuMnnesh51OVSgbS3A
+5v2EFMU20SynUVMo6xd9712VRdmsnfxaeSgNV1QDTk8xtdA4emCy4NGIN8ADssRmLmbzYFGX
+2Xz6l/KRHqKplRKmNYXtvgG253yCb3UQfap28GCxhouFDgyxW78pR+f9/sld/8ASm2cibrTb
+pWuhfZ2dOdmBKYfKcsFfe6l52hoDlmX3CrQnNV0C9cr1LYRwrFnZpWL84DOpkTmfLg7VnEu9
+yvnd/qhiCCx6ZTU36SsR2OKv7crbbraL/iA4JTIsaMtFqoXXa1+o/zxCK5RkJPuwyCQ/8Ap2
+SpLfh1xi0KEfqO2774MbbB7F+oLMer8qookK5LY5+2GcGh1QFX6KW+ocySXorlQe7SpMSEHx
+IWCGXigSLZWvY56YeShQPZkBtEuhUw7LOj+2AKd4o/m+8MfZbstO5g43VgfCey6zpshij6VR
+A3ZB/AQlMNXC8qLhGh9NglBzQN0GFAyR4Psp91mnHTBA5hwrLXeUnFqT+BtForo0MqyfmP89
+rQ3Zt+u4ghdUnxFbdU8oSuzh+lBq1AC87xfvUfvZ7ggBL4JOv9QuTykRqeh85gehCNvEe+Lg
+fUYYMSnanXrvbKJSnhPHgTWjPyWO7CKrFaqocP92HOByA2IdCqEoYr/ctavGlcW11IvAJsQ1
+KmpRQblbqua5EUMWNdkuO45Q2pVJyydtDznuNPlpH+qaBxmUW1blBinc8+kZY97EMpNtZvo1
+v6th2QZG3L+aVcsvUHgNxhH1pAbshr+dpo2z2Dw=
+
+/
+show errors

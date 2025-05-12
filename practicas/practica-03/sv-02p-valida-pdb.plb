@@ -1,0 +1,32 @@
+create or replace procedure spv_verifica_pdb wrapped 
+a000000
+369
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+3a5 248
+dbND94GyJtk0cEGGQYT0lLwNYlAwgxAJ2dzWZ44yVWRTmbIhqFz96t9MpQRiLUdZQDdgeLYn
+f6g+0A4p5SRDeM4LhxxjUCtJZ4//rcdyrR/RdS5uZy/OVp8nH5z6gJscJuADPL5RRwO4SSEC
+7XyV9XTiJOHnjddNwKQR6jDXpNlPIZX9Opf62GB/3E2bdYSSTeIwnoniv8vYGAAOkSVxxZoQ
+75cDy90LLemjXTFj479WcupWyHrItjQ9JWOisZ6NQylFXyw1Bbsob8Y9OiKT07rmhmp9RquQ
+0x02mU2MLNoZGZouLPwHNyl0XfDFltGN2NnZfeng0nH9SdTIOhR1sZJqZD2sj45N9PvXqI9u
+5xDKNL7PHMXr/vTII1WYJKmtEax1y9hG1fTJd/jBjby8OQZDE3bxfh95ts8+UWXhd3euy1Iu
+MLSQmdIKtG3ikKkzErIGdCX8oOUKJ0WHyoNCM5Rsk3Hh+Q9MJE0HMoUI4fA87wIudAXnq/IN
+0UcwZwtE5ebQUmSU9VVFfPnglxRzB5PwM+FeYN7STpDEo9VRuZOGSnvOtsjcTYKYkkRlHPkm
+
+
+/
+show errors

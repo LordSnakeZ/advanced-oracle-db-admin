@@ -1,0 +1,14 @@
+
+NAME                                     VALUE
+---------------------------------------- ------------------------------------------------------------
+memory_target                            805306368
+control_files                            /unam/bda/disks/d01/app/oracle/oradata/FREE/control01.ctl
+control_files                            /unam/bda/disks/d02/app/oracle/oradata/FREE/control02.ctl
+control_files                            /unam/bda/disks/d03/app/oracle/oradata/FREE/control03.ctl
+_instance_recovery_bloom_filter_size     1048576
+db_domain                                fi.unam
+db_name                                  free
+enable_pluggable_database                true
+
+8 rows selected.
+

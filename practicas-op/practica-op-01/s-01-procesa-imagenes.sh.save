@@ -1,0 +1,82 @@
+#!/bin/bash
+# @Autor Santiago Sanchez Sanchez
+# @Fecha 13/02/2025
+# @Descripcion descargar una lista de imágenes de Internet, guardarlas
+# en un directorio y construir un archivo zip
+
+patharchiveImg="${1}"
+numImg="${2}"
+archiveZip="${3}"
+
+function help(){
+  code="${1}"
+  cat  s-02-ayuda.sh
+  exit "${code}"
+}
+
+if [ -z "${patharchiveImg}" ]; then
+  echo "Error: El nombre del archivo zip no fue especificado"
+  help 100
+else
+  if ! [ -f "${patharchiveImg}" ]; then
+    echo "ERROR: El archivo de imagenes ${patharchiveImg} no existe"
+    help 101
+  fi
+fi
+
+if ! [[ "${numImg}" =~ ^[0-9]+$ && "${numImg}" -gt 0 && "${numImg}" -le 90 ]]; then
+  echo "ERROR: Numero de imagenes es incorrecto."
+  help 102
+fi
+
+if [ -n "${archiveZip}" ]; then
+  pathZip=$(dirname "${archiveZip}")
+  nameZip=$(basename "${archiveZip}")
+  if ! [ -d "${pathZip}" ]; then
+    echo "ERROR: El directorio no existe"
+    help 103
+  fi
+else
+  pathZip="/tmp/${USER}/imagenes"
+  mkdir -p "${pathZip}"
+  nameZip="imagenes-$(date '+%Y-%m-%d-%H-%M-%S').zip"
+fi
+
+echo "Obteniendo imágenes, serán guardadas en ${pathZip}"
+
+rm -rf "${pathZip}"/*
+
+count=0
+
+while read -r line; do
+  if [ "${count}" -ge "${numImg}" ]; then
+    echo "Total de imagenes obtenidas ${count}"
+    break;
+  fi
+
+  wget -q -P "${pathZip}" "${line}"
+  status=$?
+  if ! [ "${status}" -eq 0 ]; then
+    echo "ERROR al obtener la imagen ${line}"
+    help 104
+  fi
+  count=$((count+1))
+  echo "Imagen ${count} obtenida"
+done < "${patharchiveImg}"
+
+export IMG_ZIP_FILE="${pathZip}/${nameZip}"
+echo "Generando archivo zip en ${IMG_ZIP_FILE}"
+
+rm -f "${IMG_ZIP_FILE}"
+
+zip -j "${IMG_ZIP_FILE}" "${pathZip}"/*
+
+echo "Cambiando permisos del archivo zip"
+chmod 600 "${IMG_ZIP_FILE}"
+
+echo "Generando archivo con lista de imagenes"
+
+rm -f "${pathZip}"/s-00-lista-archivos.txt
+
+unzip -Z1 "${IMG_ZIP_FILE}" > "${pathZip}"/s-00-lista-archivos.txt
+unzip -Z1 "${IMG_ZIP_FILE}" | xargs -I {} rm "${pathZip}"/{}

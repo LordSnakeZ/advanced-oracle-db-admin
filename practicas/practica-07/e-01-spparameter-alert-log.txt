@@ -1,0 +1,19 @@
+Oracle Database 23ai Free Release 23.0.0.0.0 - Develop, Learn, and Run for Free
+Version 23.7.0.25.01.
+ORACLE_HOME:    /opt/oracle/product/23ai/dbhomeFree
+System name:    Linux
+Node name:	d2-bda-sss.fi.unam
+Release:        6.11.0-19-generic
+Version:        #19~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 17 11:51:52 UTC 2
+Machine:        x86_64
+Using parameter settings in server-side spfile /opt/oracle/product/23ai/dbhomeFree/dbs/spfilefree.ora
+System parameters with non-default values:
+  memory_target            = 768M
+  control_files            = "/unam/bda/disks/d01/app/oracle/oradata/FREE/control01.ctl"
+  control_files            = "/unam/bda/disks/d02/app/oracle/oradata/FREE/control02.ctl"
+  control_files            = "/unam/bda/disks/d03/app/oracle/oradata/FREE/control03.ctl"
+  _instance_recovery_bloom_filter_size= 1048576
+  db_domain                = "fi.unam"
+  db_name                  = "free"
+  enable_pluggable_database= TRUE
+2025-03-10T15:20:01.250047-06:00
